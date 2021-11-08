@@ -24,6 +24,8 @@ triggers:
     metricName: ApproximateNumberOfMessagesVisible
     targetMetricValue: "2"
     minMetricValue: "0"
+    # Required: The unit for a given metric
+    metricUnit: "Count"
     # Required: region
     awsRegion: "eu-west-1"
     # Optional: AWS Access Key ID, can use TriggerAuthentication as well
